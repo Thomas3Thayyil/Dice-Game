@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+    <div id="heading" class="center">
+        <p>DICE GAME</p>
+    </div>
+
+    <div class="center">
+        <div id="container">
+
+            <div class="name">
+                <p id="p1">TTT</p>
+            </div>
+            <div class="name">
+                <p id="p2"></p>
+            </div>
+
+            <div class="dice">
+
+                <div class="spots"></div>
+                <div class="spots"></div>
+                <div class="spots"></div>
+                <div class="spots"></div>
+                <div class="spots visible"></div>
+                <div class="spots"></div>
+                <div class="spots"></div>
+                <div class="spots"></div>
+                <div class="spots"></div>
+
+            </div>
+
+            <div class="dice">
+
+                <div class="spots"></div>
+                <div class="spots"></div>
+                <div class="spots"></div>
+                <div class="spots"></div>
+                <div class="spots visible"></div>
+                <div class="spots"></div>
+                <div class="spots"></div>
+                <div class="spots"></div>
+                <div class="spots"></div>
+
+            </div>
+
+        </div>
+    </div>  
+
+    <div class="center" style="margin-top: 210px;">
+        <button onclick="roll()"  class="btn btn-outline-warning" style="font-size: 90px">
+            ROLL DICE
+        </button>
+    </div>
+
+    <div class="center" style="margin-top: 180px;">
+        <p id="score" class="name" style="font-size: 120px; width: fit-content;"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
